@@ -1,0 +1,293 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar css */
+
+#nav{
+    padding:15px 5px;
+    background-color: #fbefdb;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+#navbarScroll{
+    padding-left: 15%;
+}
+#navbarScroll ul li a{
+    color: black;
+}
+#navbarScroll button{
+    margin-left: 35px;
+    border-radius: 30px;
+    border-width: 1.5px;
+}
+
+
+
+
+
+/* header css */
+.header{
+    background-image: url('images/headerbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.header .row{
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+    /* line-height: 2.5rem; */
+    /* height: 100px; */
+}
+
+.plain-content{
+    /* border: 1px solid red; */
+    /* width: auto; */
+    height: 50vh;
+}
+#headerRow h1{
+    font-size: 85px;
+}
+#headerRow button{
+    margin: 20px auto;
+    width: 20%;
+    border-radius: 30px;
+    padding: 10px 3px;
+    background-color: rgb(45, 182, 45);
+    color: aliceblue;
+    border: none;
+    font-size: 25px;
+    
+    /* font-weight: 600; */
+}
+#headerRow button:hover{
+    background-color: goldenrod;
+    color: black;
+    transition: 0.2s;
+}
+#headerRow p{
+    font-size: 13px;
+}
+
+
+/* row1 css */
+#row1{
+    margin: 100px auto;
+}
+
+#onecol-1{
+   text-align: center;
+    
+}
+#onecol-2{
+    text-align: left;
+    padding-left: 5%;
+}
+#onecol-2 button{
+    margin: 20px auto;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px 3px;
+    background-color: rgb(45, 182, 45);
+    color: aliceblue;
+    border: none;
+    font-size: 25px;
+    
+    /* font-weight: 600; */
+}
+#onecol-2 button:hover{
+    background-color: goldenrod;
+    color: black;
+    transition: 0.2s;
+}
+
+/* row2 css */
+#row2{
+    margin: 100px auto;
+    /* border: 1px solid red; */
+    
+}
+
+#twocol-1{
+   text-align: left;
+    padding-left: 15%;
+}
+#twocol-2{
+    text-align: center;
+}
+
+
+/* row3 css */
+#row3{
+    margin: 100px auto;
+    /* border: 1px solid red; */
+    
+}
+
+#threecol-1{
+   text-align: center;
+    
+}
+#threecol-2{
+    text-align: left;
+}
+
+.row3icons{
+    margin: 10px 0px;
+    
+}
+.row3icons img{
+    padding: 0px 5px;
+}
+#threecol-2 a{
+    /* border: 1px solid red; */
+    color: rgb(12, 78, 12);
+    line-height: 2.5rem;
+    text-decoration: none;
+}
+#threecol-2 a:hover{
+    
+    transition: 0.2s;
+}
+
+#threecol-2 a::after {
+    content: '';
+    width: 00%;
+    height: 2px;
+    background: rgb(18, 117, 7);
+    display: block;
+    /* margin: auto; */
+    transition: 0.5s;
+}
+
+#threecol-2 a:hover::after {
+    width: 13%;
+}
+
+
+
+#threecol-2 button{
+    margin: 0px auto;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px 3px;
+    background-color: rgb(45, 182, 45);
+    color: aliceblue;
+    border: none;
+    font-size: 25px;
+    
+    /* font-weight: 600; */
+}
+#threecol-2 button:hover{
+    background-color: goldenrod;
+    color: black;
+    transition: 0.2s;
+}
+
+
+/* row4 css */
+#row4{
+    margin: 100px auto;
+    /* border: 1px solid red; */
+    
+}
+
+
+#fourcol-1{
+    text-align: center;
+}
+#fourcol-2{
+    text-align: center;
+}
+#fourcol-3{
+    text-align: center;
+}
+
+#row4 img{
+    padding-bottom: 40px;
+}
+
+
+
+#row5{
+    text-align: center;
+}
+#row5 a{
+    /* border: 1px solid red; */
+    color: rgb(12, 78, 12);
+    line-height: 2.5rem;
+    text-decoration: none;
+    
+}
+#row5 a:hover{
+    
+    transition: 0.2s;
+}
+
+#row5 a::after {
+    content: '';
+    width: 00%;
+    height: 2px;
+    background: rgb(18, 117, 7);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#row5 a:hover::after {
+    width: 13%;
+}
+
+
+.footer{
+    margin-top: 100px;
+    background-color: rgb(234, 247, 247);
+    text-align: center;
+    /* line-height: 3rem; */
+}
+
+#row6{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#row7{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#row7 a{
+    /* border: 1px solid red; */
+    color: rgb(12, 78, 12);
+    line-height: 2.5rem;
+    text-decoration: none;
+}
+#row7 a:hover{
+    
+    transition: 0.2s;
+}
+
+#row7 a::after {
+    content: '';
+    width: 00%;
+    height: 2px;
+    background: rgb(18, 117, 7);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#row7 a:hover::after {
+    width: 20%;
+}
+
+.footer img{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 3px #807f7d;
+}
