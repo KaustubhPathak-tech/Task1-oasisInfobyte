@@ -144,7 +144,6 @@
     padding: 0px 5px;
 }
 #threecol-2 a{
-    /* border: 1px solid red; */
     color: rgb(12, 78, 12);
     line-height: 2.5rem;
     text-decoration: none;
@@ -160,7 +159,7 @@
     height: 2px;
     background: rgb(18, 117, 7);
     display: block;
-    /* margin: auto; */
+    
     transition: 0.5s;
 }
 
